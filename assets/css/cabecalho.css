@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Circular-Std;
+    src: url(../fonts/circular-std-medium-500.ttf);
+}
+
+@font-face {
+    font-family: Smith-Allison;
+    src: url(../fonts/smith-allison.ttf);
+}
+
+@font-face {
+    font-family: 'Icones';
+    src: url(../fonts/icones.ttf);
+}
+
+body {
+    font-family: Circular-Std, 'Icones', sans-serif;
+    background-color: #E5E5E5;
+}
+
+
+.cabecalho {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    position: absolute;
+}
+
+.cabecalho__logo {
+    font-family: Smith-Allison, cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 4rem;
+    color: #0CA296;
+    margin-bottom: .3rem;
+}
+
+.cabecalho__menu {
+    text-align: center;
+}
+
+.cabecalho__menu__button i::before {
+    content: "\e904";
+    font-size: 24px
+}
+
+.cabecalho__menu__button--ativo {
+    display: none;
+}
+
+.cabecalho__menu__link {
+    color: #000000;
+    font-size: 1.1rem;
+    display: inline-block;
+
+    margin-right: 0.7rem;
+    margin-bottom: 1rem;
+    margin-left: 0.7rem;
+    text-decoration: none;
+}
+
+.cabecalho__menu__link:hover {
+    text-decoration: underline;
+}
