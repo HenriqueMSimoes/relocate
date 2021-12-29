@@ -1,0 +1,26 @@
+.cartao {
+    margin-top: 2rem;
+    padding: 2px 2px;
+    border-radius: 15px;
+    overflow: hidden;
+    /* tudo que passar este cartão/tamanho é escondido */
+}
+
+/* 
+.cartao__conteudo {
+    color: #FFFFFF;
+} */
+
+.cartao__imagem {
+    width: 80%;
+    border-radius: 15px;
+}
+
+.cartao__cidade {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.carta__estado {
+    font-size: 0.8rem;
+}
