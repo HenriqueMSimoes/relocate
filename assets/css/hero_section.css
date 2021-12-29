@@ -1,0 +1,54 @@
+.hero__imagem {
+    width: 100%;
+    height: calc(50vh - 5rem);
+    background: linear-gradient(356.3deg, rgba(0, 0, 0, 0.6) 3.4%, rgba(0, 0, 0, 0) 92.42%);
+}
+
+.hero__titulo {
+    position: absolute;
+    transform: translate(-19%, -50%);
+    left: 15%;
+    top: 25%;
+}
+
+.hero__subtitulo {
+    position: absolute;
+    transform: translate(-19%, -50%);
+    left: 14%;
+    top: 30.5%;
+}
+
+.titulo {
+    color: #FFC700;
+    font-family: Smith-Allison, cursive;
+    font-size: 6rem;
+    font-weight: normal;
+}
+
+.subtitulo {
+    color: #FFFFFF;
+    font-family: Circular-Std, cursive;
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.hero__imagem--seta {
+    position: absolute;
+    width: 1.491rem;
+    height: 2.5rem;
+    left: 65%;
+    top: 29%;
+}
+
+.hero_descricao {
+    position: absolute;
+    left: 74%;
+    top: 29.9%;
+
+    font-weight: 500;
+    font-size: .8rem;
+    line-height: 1rem;
+    /* letter-spacing: 0.195em; */
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
