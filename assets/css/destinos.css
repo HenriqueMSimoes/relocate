@@ -34,3 +34,20 @@
     color: #FFFFFF;
     font-size: .8rem;
 }
+
+.mais {
+    background: #E5E5E5;
+}
+
+.mais__titulo {
+    color: #0CA296;
+    margin-bottom: .8rem;
+}
+
+.mais__subtitulo {
+    color: #000000
+}
+
+.mais__descricao {
+    color: #000000;
+}
