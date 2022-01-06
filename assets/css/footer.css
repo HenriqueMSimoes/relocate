@@ -1,0 +1,121 @@
+.footer__imagem {
+    background-size: cover;
+    height: 350px;
+    position: relative;
+    width: 100%;
+}
+
+.footer__imagem:before {
+    content: '';
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 60%;
+    background: linear-gradient(180deg, #F5FFFE 0%, #F5FFFE 47.71%, rgba(255, 255, 255, 0) 100%);
+    opacity: 1;
+}
+
+.footer {
+    font-family: Circular-Std, sans-serif;
+    font-size: .8rem;
+    background-color: #003531;
+}
+
+.footer__menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer__titulo {
+    text-transform: uppercase;
+}
+
+.footer__item {
+    float: left;
+    margin-left: .8rem;
+}
+
+.footer__item .footer__link,
+.footer__dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 8px 10px;
+    text-decoration: none;
+}
+
+.footer__item .footer__link:hover,
+.footer__dropdown:hover .footer__dropbtn {
+    background-color: #003531;
+}
+
+.footer__item.footer__dropdown {
+    display: inline-block;
+}
+
+.footer__dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #003531;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.footer__dropdown-content .footer__link {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.footer__dropdown-content .footer__link:hover {
+    background-color: #003531;
+}
+
+.footer__dropdown:hover .footer__dropdown-content {
+    display: block;
+}
+
+.footer__dropdown:hover .footer__dropdown-content:last-child {
+    margin-left: -2.5rem;
+}
+
+.footer_redes-sociais {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_logo {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+    width: 27.77px;
+    height: 27.77px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url(../images/facebook.svg);
+}
+
+.twiter {
+    background-image: url(../images/twitter.svg);
+}
+
+.instagram {
+    background-image: url(../images/instagram.svg);
+
+}
+
+.linkedin {
+    background-image: url(../images/linkedin.svg);
+}
