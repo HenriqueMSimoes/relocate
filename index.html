@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./assets/css/hero_section.css">
     <link rel="stylesheet" href="./assets/css/destinos.css">
     <link rel="stylesheet" href="./assets/css/cartao.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
 
 </head>
 
@@ -24,12 +25,12 @@
         <p class="cabecalho__logo">relocate</p>
         <nav class="cabecalho__menu">
             <!--class="ativo" usado na tag a não vou usar neste projeto-->
-            <a href="index.html" class="cabecalho__menu__link cabecalho__menu__link--ativo">Home</a>
+            <a name="home" href="#home" class="cabecalho__menu__link cabecalho__menu__link--ativo">Home</a>
             <a href="#" class="cabecalho__menu__link">Destinations</a>
             <a href="#" class="cabecalho__menu__link">Deals</a>
             <a href="#" class="cabecalho__menu__link">Explore</a>
             <a href="#" class="cabecalho__menu__link">Resources</a>
-            <a href="index.html" <button class="cabecalho__menu__button cabecalho__menu__button--ativo"
+            <a href="#home" <button class="cabecalho__menu__button cabecalho__menu__button--ativo"
                 aria-label="Menu"><i></i></button></a>
         </nav>
     </header>
@@ -136,6 +137,55 @@
         </section>
 
     </main>
+
+    <footer class="footer">
+        <div class="footer__imagem" style="background-image:url(./assets/images/footer.png)">
+        </div>
+        <nav class="footer__menu">
+            <li class="footer__item"><a class="footer__link footer__titulo" href="#home">Home</a></li>
+            <li class="footer__item footer__dropdown">
+                <a href="javascript:void(0)" class="footer__dropbtn footer__titulo">Legal</a>
+                <div class="footer__dropdown-content">
+                    <a class="footer__link" href="#">MSA Self Managed</a>
+                    <a class="footer__link" href="#">Privacy</a>
+                    <a class="footer__link" href="#">GDPR</a>
+                    <a class="footer__link" href="#">Guidelines for Law Enforcement</a>
+                    <a class="footer__link" href="#">Terms of Service</a>
+                    <a class="footer__link" href="#">Manage Cookies</a>
+                </div>
+            </li>
+            <li class="footer__item footer__dropdown">
+                <a href="javascript:void(0)" class="footer__dropbtn footer__titulo">Product</a>
+                <div class="footer__dropdown-content">
+                    <a class="footer__link" href="#">Why move?</a>
+                    <a class="footer__link" href="#">Features</a>
+                    <a class="footer__link" href="#">Omnichannel</a>
+                    <a class="footer__link" href="#">Community</a>
+                    <a class="footer__link" href="#">Webinars</a>
+                    <a class="footer__link" href="#">Marketplace</a>
+                </div>
+            </li>
+            <li class="footer__item footer__dropdown">
+                <a href="javascript:void(0)" class="footer__dropbtn footer__titulo">company</a>
+                <div class="footer__dropdown-content">
+                    <a class="footer__link" href="#">Team</a>
+                    <a class="footer__link" href="#">About</a>
+                    <a class="footer__link" href="#">Jobs</a>
+                    <a class="footer__link" href="#">Partners</a>
+                    <a class="footer__link" href="#">Press</a>
+                    <a class="footer__link" href="#">Blog</a>
+                    <a class="footer__link" href="#">Newsletter</a>
+                </div>
+            </li>
+        </nav>
+        <nav class="footer__menu footer_redes-sociais">
+            <li class="footer__item footer_logo facebook"><a href="javascript:void(0)" class=" footer__link"></a></li>
+            <li class="footer__item footer_logo twiter"><a href="javascript:void(0)" class=" footer__link"></a></li>
+            <li class="footer__item footer_logo instagram"><a href="javascript:void(0)" class=" footer__link"></a></li>
+            <li class="footer__item footer_logo linkedin"><a href="javascript:void(0)" class=" footer__link"></a></li>
+        </nav>
+
+    </footer>
 
 
 </body>
