@@ -8,13 +8,8 @@
     src: url(../fonts/smith-allison.ttf);
 }
 
-@font-face {
-    font-family: 'Icones';
-    src: url(../fonts/icones.ttf);
-}
-
 body {
-    font-family: Circular-Std, 'Icones', sans-serif;
+    font-family: Circular-Std, sans-serif;
     background-color: #E5E5E5;
 }
 
@@ -44,12 +39,7 @@ body {
     text-align: center;
 }
 
-.cabecalho__menu__button i::before {
-    content: "\e904";
-    font-size: 24px
-}
-
-.cabecalho__menu__button--ativo {
+.cabecalho__menu__imagem--ativo {
     display: none;
 }
 
@@ -66,4 +56,26 @@ body {
 
 .cabecalho__menu__link:hover {
     text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .cabecalho {
+        justify-content: space-between;
+        flex-direction: row;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        height: 82px;
+    }
+
+    .cabecalho__menu__imagem--ativo {
+        display: inline-flex;
+    }
+
+    .cabecalho__menu__link--ativo {
+        display: none;
+    }
+
+    .cabecalho__logo {
+        font-size: 7em;
+    }
 }
