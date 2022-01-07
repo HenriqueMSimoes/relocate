@@ -18,9 +18,35 @@
 
 .cartao__cidade {
     font-size: 1.2rem;
+    font-style: normal;
     font-weight: 700;
 }
 
-.carta__estado {
+.cartao__estado {
     font-size: 0.8rem;
+}
+
+@media screen and (min-width: 924px) {
+    .cartao--ativo {
+        display: none;
+    }
+
+    .cartao__cidade {
+        /* margin-top: -12rem; */
+        /* margin-bottom: 15rem; */
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 51px;
+        color: #FFFFFF;
+    }
+
+    .cartao__estado {
+        margin-bottom: 8rem;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
 }
