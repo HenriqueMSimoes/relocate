@@ -67,6 +67,15 @@ body {
         height: 82px;
     }
 
+    .cabecalho__menu {
+        margin-right: 1.25rem;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1.188rem;
+        margin-right: 1.25rem;
+    }
+
     .cabecalho__menu__imagem--ativo {
         display: inline-flex;
     }
