@@ -1,0 +1,92 @@
+/* Grid */
+@media screen and (min-width: 924px) {
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        /* flex-wrap: wrap;
+        flex-direction: row; */
+        margin-right: -4rem;
+        padding: 1rem 10rem;
+    }
+
+    .grid-template {
+        grid-template:
+            "grid__cartao--01 grid__cartao--01 grid__cartao--01 grid__cartao--01"
+    }
+
+    .grid__cartao--01 {
+        grid-area: grid__cartao--01;
+        width: 33vh;
+        height: 29vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/paraty.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .grid__cartao--02 {
+        grid-area: grid__cartao--02;
+
+        width: 33vh;
+        height: 29vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/Morretes.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid__cartao--03 {
+        grid-area: grid__cartao--03;
+
+        width: 33vh;
+        height: 29vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/Olinda.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .grid__cartao--04 {
+        grid-area: grid__cartao--04;
+
+        width: 33vh;
+        height: 29vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/Gramado.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+    }
+}
