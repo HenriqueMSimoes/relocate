@@ -2,20 +2,19 @@
 @media screen and (min-width: 924px) {
     .grid {
         display: grid;
-        grid-template-columns: repeat(4, auto);
-        /* flex-wrap: wrap;
-        flex-direction: row; */
+        grid-template-columns: repeat(4, 1fr);
         margin-right: -4rem;
-        padding: 1rem 10rem;
+        padding: 1rem 22rem;
     }
 
     .grid-template {
         grid-template:
-            "grid__cartao--01 grid__cartao--01 grid__cartao--01 grid__cartao--01"
+            "mais__cartao--01 mais__cartao--01 mais__cartao--02 mais__cartao--03"
+            "mais__cartao--01 mais__cartao--01 mais__cartao--04 mais__cartao--04"
     }
 
-    .grid__cartao--01 {
-        grid-area: grid__cartao--01;
+    .top__cartao--01 {
+        grid-area: top__cartao--01;
         width: 33vh;
         height: 29vw;
         border-radius: 10px;
@@ -33,8 +32,8 @@
         text-align: center;
     }
 
-    .grid__cartao--02 {
-        grid-area: grid__cartao--02;
+    .top__cartao--02 {
+        grid-area: top__cartao--02;
 
         width: 33vh;
         height: 29vw;
@@ -52,8 +51,8 @@
         flex-direction: column;
     }
 
-    .grid__cartao--03 {
-        grid-area: grid__cartao--03;
+    .top__cartao--03 {
+        grid-area: top__cartao--03;
 
         width: 33vh;
         height: 29vw;
@@ -71,8 +70,8 @@
         flex-direction: column;
     }
 
-    .grid__cartao--04 {
-        grid-area: grid__cartao--04;
+    .top__cartao--04 {
+        grid-area: top__cartao--04;
 
         width: 33vh;
         height: 29vw;
@@ -81,6 +80,80 @@
                 rgb(255, 255, 255, 0),
                 rgb(0, 0, 0, 0.5)),
             url('../images/Gramado.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mais__cartao--01 {
+        grid-area: mais__cartao--01;
+        width: 36vh;
+        height: 38vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/Estaing.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .mais__cartao--02 {
+        grid-area: mais__cartao--02;
+        width: 48vh;
+        height: 18vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/VikiiMyrda.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mais__cartao--03 {
+        grid-area: mais__cartao--03;
+        width: 48vh;
+        height: 18vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/HamnoyVillage.png');
+        background-size: cover;
+        background-position: center;
+
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .mais__cartao--04 {
+        grid-area: mais__cartao--04;
+
+        width: 98vh;
+        height: 18vw;
+        border-radius: 10px;
+        background-image: linear-gradient(to bottom,
+                rgb(255, 255, 255, 0),
+                rgb(0, 0, 0, 0.5)),
+            url('../images/MontegoBay.png');
         background-size: cover;
         background-position: center;
 
