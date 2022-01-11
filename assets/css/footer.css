@@ -23,11 +23,19 @@
     background-color: #003531;
 }
 
+.footer__desktop {
+    display: none;
+}
+
 .footer__menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+.footer__desktop {
+    display: none;
 }
 
 .footer__titulo {
@@ -92,7 +100,7 @@
     justify-content: space-between;
 }
 
-.footer_logo {
+.footer__logo {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
     margin-top: 5rem;
@@ -118,4 +126,69 @@
 
 .linkedin {
     background-image: url(../images/linkedin.svg);
+}
+
+/* Grid */
+@media screen and (min-width: 924px) {
+    .footer__mobile {
+        display: none;
+    }
+
+    .footer__imagem {
+        height: 850px;
+    }
+
+    .footer {
+        font-size: 1rem;
+    }
+
+    .footer__desktop {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .footer__titulo {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 156.69%;
+        text-transform: uppercase;
+        color: #D0D0D0;
+        margin-bottom: 2rem;
+    }
+
+    /* .footer__menu {
+        padding-right: 3rem;
+        padding-left: 3rem;
+    } */
+
+    .footer__item {
+        float: none;
+        margin-left: 0rem;
+        list-style: none;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1rem;
+        line-height: 1.688rem;
+        transform: uppercase;
+    }
+
+    .footer__item .footer__link {
+        display: block;
+        color: white;
+        text-align: left;
+        padding: 0;
+        text-decoration: none;
+    }
+
+    .footer__logo {
+        margin: 2rem;
+        width: 27.77px;
+        height: 27.77px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
 }
