@@ -30,6 +30,6 @@ Para visualizar a webpage acesse o link:
 
 ## 📄 Licença
 
-The [MIT License]() (MIT)
+The [MIT License](https://github.com/HenriqueMSimoes/relocate/blob/main/LICENSE) (MIT)
 
 Copyright :copyright: 2021-2022 - Relocate - Travel website Landing page 
